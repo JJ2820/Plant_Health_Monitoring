@@ -1,0 +1,1 @@
+This module reads data from the sensors such as temperature, humidity, and soil moisture. We will use the DHT11/DHT22 sensor for temperature and humidity, and a soil moisture sensor. We assume the sensors are connected to GPIO pins on the Raspberry Pi.
