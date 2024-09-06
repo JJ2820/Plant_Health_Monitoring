@@ -1,0 +1,1 @@
+TensorFlow and OpenCV for plant disease detection. We’ll utilize a pre-trained model such as MobileNetV2 (available as an open-source model), and ensure proper error handling and modularity.
