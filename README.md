@@ -35,3 +35,17 @@ IoT system that monitors the health of plants in a greenhouse by analyzing live-
         Run the machine learning model and sensor data collection code on the Raspberry Pi.
         Use Flask/Django to create a web interface accessible via local network, showing the live sensor data and camera footage.
         Log the sensor data and analysis results to a cloud-based service (e.g., Firebase, AWS IoT) for remote monitoring.
+
+
+
+![Screenshot from 2024-09-06 23-39-58](https://github.com/user-attachments/assets/2b246fdd-40a5-489b-bf1e-f33f4f1b6145)
+
+
+# Key Elements:
+
+    Plant Health Sensors: Soil moisture, pH, and light sensors.
+    Temperature and Humidity Sensors: Sensors like DHT11 or DHT22.
+    Raspberry Pi: The central hub processes sensor data and runs the application logic.
+    Machine Learning Model: Analyzes CCTV footage for signs of disease.
+    CCTV Camera: Provides live-streamed footage of the plants.
+    Web Interface: Displays real-time sensor data and analysis results.
