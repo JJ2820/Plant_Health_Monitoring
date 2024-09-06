@@ -1,1 +1,14 @@
 TensorFlow and OpenCV for plant disease detection. We’ll utilize a pre-trained model such as MobileNetV2 (available as an open-source model), and ensure proper error handling and modularity.
+
+
+project_root/
+│
+├── model/
+│   ├── __init__.py  # Makes model a package
+│   └── load_model.py  # Model loading functionality
+│
+├── utils/
+│   ├── __init__.py  # Makes utils a package
+│   └── image_preprocessing.py  # Image preprocessing utilities
+│
+├── main.py  # Main application
